@@ -1,0 +1,139 @@
+body {
+         color: #ebebeb;
+         background-image: url('imagens/barcoprincipal.jpg');
+         background-size: cover;
+         background-attachment: scroll;
+         font-family: Arial, sans-serif;
+         margin: 0;
+         padding: 0;
+         } 
+div.topo {
+          background-color: #21272B;
+          top: 100%;
+          width: 100%;
+          height: 100px;
+          margin-right: 25px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 0 10px;
+          position: relative;} 
+.topo h1 {
+          font-size: 30px;
+          margin: 0;
+          padding: 0;
+    }
+.topo h2 {
+          font-size: 20px;
+          margin: 0;
+          padding: 0;
+          }  
+.luxo {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 5px;
+          padding-right: 1250px;}                             
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    color: #ebebeb;
+    margin-right: 20px;
+    border-right: 1px solid white;
+    padding-right: 20px;
+    font-size: 25px; }             
+span {
+          color: #C6B07F;}
+div.meio    {
+          background-color: #21272B;
+          opacity: 0.9;
+          margin: 20px;
+          padding: 20px;
+          width: 30%;
+          height: 25%;
+          top: 40%;
+          left: 60%;
+            position: absolute;
+            display: inline-flexbox;
+          }
+.meio h1 {
+          font-size: 30px;
+          margin: 0;
+          padding: 0;
+          }
+.meio p {
+          font-size: 20px;
+          margin-top: 10px;
+          }  
+.meio-interno {
+          display: flex;
+          flex-direction: row;
+          align-items: flex-start;
+          gap: 20px;
+          margin-top: 20px;
+          }                            
+div.baixo {
+          background-color: #ffffff;
+          margin: auto;
+          padding: 20px;
+          color: #000000;
+          position: absolute;
+          top: 80%;
+          align-items: baseline;
+          width: 100%;
+          display: flex;
+          gap: 30px;
+          padding: 20px;
+          }
+.baixo h2 {
+          font-size: 30px;
+          margin: 0;
+          padding: 0;
+          }
+.baixo p {
+          font-size: 20px;
+          margin-top: 10px;
+          }                        
+.card {
+          width: 80%;
+          }
+.titulo {
+          width: 250px;
+          padding: 20px;
+          color: #ebebeb;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+            }
+
+
+div.destino {
+          background-color: #1BB4E8;
+          color: #ebebeb; 
+          width: 80px;
+          padding-right: 680px;
+        }      
+div.nossafrota {
+          background-color: #C6B07F;
+          color: #ebebeb;
+          width: 80px;
+          padding-right: 700px;
+          height: 10%;
+          }                 
+.titulo img {
+          width: 50%;
+          }
+.barcodestino {
+          width: 65%;
+          } 
+.galeria {
+          display: grid;
+            grid-template-columns: repeat(2, 1fr);
+          gap: 10px;
+          }  
+.galeria img {
+          width: 50%;
+}                             
